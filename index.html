@@ -13,11 +13,114 @@
     />
     <title>Weather App</title>
   </head>
-  <body>
-    <div class="container">
-      <h1>Hi World</h1>
-      <a href="" class="btn btn-primary"> CLICK ME</a>
+    <body>
+    <div class="App">
+      <div class="container">
+     
+        <div class="Weather">
+             <h1>
+    Weather 
+  </h1>
+          <form>
+            <div class="row"></div>
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Enter a city"
+                class="form-control search-input"
+              />
+            </div>
+            <div class="col-3 p-0">
+              <input
+                type="submit"
+                class="btn btn-primary w-100"
+                value="Search"
+              />
+            </div>
+          </form>
+          <div class="WeatherInfo">
+            <div class="row">
+              <div class="col-6">
+                <h2>Phoenix</h2>
+                <ul>
+                  <li>
+                    <span>Thursday 13:54  </span>
+                    few clouds
+                  </li>
+                  <li>Humidity: <strong> 70% </strong></li>
+                  <li>Wind: <strong> 7.72km/h </strong></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <div class="justify-content-end">
+                  <span class="temperature">19</span>
+                  <span class="unit">°C</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+           <div class="col">
+            <div class="WeatherForecastPreview">
+              <div class="forecast-time">Mon</div>
+              <div class="forecast-temperature"></div>
+               <div class="weather-icon">☀</div>
+              <span class="forecast-temperature-max">17°</span>
+              <span class="forecast-temperature-min">13°</span>
+            </div>
+            </div>
+            <div class="row"> 
+            <div class="col">
+              <div class="WeatherForecastPreview">
+                <div class="forecast-time">Tues</div>
+                <div class="forecast-temperature"></div>
+                 <div class="weather-icon">☀</div>
+                <span class="forecast-temperature-max">17°</span>
+                <span class="forecast-temperature-min">13°</span>
+                </div>
+              </div>
+                  <div class="row"> 
+                <div class="col">
+              <div class="WeatherForecastPreview">
+                <div class="forecast-time">Wed</div>
+                <div class="forecast-temperature"></div>
+                 <div class="weather-icon">☀</div>
+                <span class="forecast-temperature-max">17°</span>
+                <span class="forecast-temperature-min">13°</span>
+              </div>
+              </div>
+                <div class="row"> 
+                <div class="col">
+              <div class="WeatherForecastPreview">
+                <div class="forecast-time">Thurs</div>
+                <div class="forecast-temperature"></div>
+                 <div class="weather-icon">☀</div>
+                <span class="forecast-temperature-max">17°</span>
+                <span class="forecast-temperature-min">13°</span>
+                </div>
+              </div>
+                <div class="row"> 
+                <div class="col">
+              <div class="WeatherForecastPreview">
+                <div class="forecast-time">Fri</div>
+                <div class="forecast-temperature"></div>
+                 <div class="weather-icon">☀</div>
+                <span class="forecast-temperature-max">17°</span>
+                <span class="forecast-temperature-min">13°</span>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+        </div>
+       
+    <footer>
+      This project was coded by Laura Ishmael and is open-sourced on GitHub and hosted on Netlify.
+  
+    </footer>
     <script src="src/app.js"></script>
   </body>
 </html>
