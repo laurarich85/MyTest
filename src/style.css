@@ -160,6 +160,6 @@ li:first-letter {
   cursor: auto;
 }
 
-.small {
-  text-align: right;
+.footer {
+  text-align: left;
 }
